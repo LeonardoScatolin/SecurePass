@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Bem-vindo, {{ username }}!</h1>
+        <p class="lead">Você está logado no sistema seguro de gerenciamento de senhas.</p>
+        <hr class="my-4">
+        <p>A partir daqui, você poderia gerenciar suas senhas ou outras funcionalidades do sistema.</p>
+    </div>
+{% endblock %}
